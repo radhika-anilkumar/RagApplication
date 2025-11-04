@@ -6,6 +6,8 @@ from langchain_community.vectorstores import Chroma
 from langchain_community.document_loaders import PyPDFLoader, TextLoader
 from langchain.text_splitter import RecursiveCharacterTextSplitter
 from langchain_community.embeddings import HuggingFaceEmbeddings   # ✅ fixed import
+from sentence_transformers import SentenceTransformer
+
 
 import shutil
 import os
